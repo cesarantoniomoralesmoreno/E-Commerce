@@ -1,0 +1,7 @@
+se instalo:
+npm install -g json-server
+
+//Esto para ejecutar la base de datos ficticia
+json-server --watch src/db/db.js //Esto para instalar el acceso a la base de datos ficticia
+y para no tener conflictos colocamos --port 3001
+json-server --watch src/db/db.json --port 3001
